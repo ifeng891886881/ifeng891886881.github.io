@@ -1206,7 +1206,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #367514;
+  background: #ffad1c;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2691,4 +2691,12 @@ body {
 }
 .post-meta-item {
   diplay: block;
+}
+.sidebar,
+.site-author-name,
+.sidebar-inner {
+  background: rgba(255,255,255,0.5);
+}
+#music163player {
+  background: transparent;
 }
